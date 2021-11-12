@@ -1,6 +1,10 @@
 package com.bridgelabz.jdbc.EmployeePayrollJdbc;
 import java.time.LocalDate;
 import java.util.Scanner;
+/**
+ * Purpose: This class is used for to take input from used perform the operartion
+ *
+ */
 
 public class EmployeePayRoll {
     public static void main(String[] args) {
@@ -35,7 +39,8 @@ public class EmployeePayRoll {
                     LocalDate eDate = LocalDate.parse(scanner.next());
                     employeePayRollService.selectEmployee(iDate,eDate);
                 }
-                
+                case 5: employeePayRollService.calculate();
+
             }
         }
     }

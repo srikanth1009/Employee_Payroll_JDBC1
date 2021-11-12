@@ -1,6 +1,10 @@
 package com.bridgelabz.jdbc.EmployeePayrollJdbc;
 
 import java.util.ArrayList;
+/**
+ * Purpose:This class is used for getter and setter methods
+ * 
+ */
 
 public class Employee {
     int EmpId;
