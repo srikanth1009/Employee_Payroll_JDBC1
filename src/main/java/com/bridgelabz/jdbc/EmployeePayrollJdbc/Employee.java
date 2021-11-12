@@ -1,8 +1,20 @@
 package com.bridgelabz.jdbc.EmployeePayrollJdbc;
+
+import java.util.ArrayList;
+
 public class Employee {
     int EmpId;
     String EmpName, PhoneNumber, Address, Department, EmpStart, Gender;
     double BasicPay, Deductions, TaxablePay, IncomeTax, NetPay;
+    ArrayList<Employee> empList;
+
+    public ArrayList<Employee> getEmpList() {
+        return empList;
+    }
+
+    public void setEmpList(ArrayList<Employee> empList) {
+        this.empList = empList;
+    }
 
     public int getEmpId() {
         return EmpId;
